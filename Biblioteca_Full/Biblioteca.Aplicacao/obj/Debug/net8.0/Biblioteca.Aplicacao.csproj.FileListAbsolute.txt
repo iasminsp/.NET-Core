@@ -1,0 +1,16 @@
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/bin/Debug/net8.0/Biblioteca.Aplicacao.deps.json
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/bin/Debug/net8.0/Biblioteca.Aplicacao.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/bin/Debug/net8.0/Biblioteca.Aplicacao.pdb
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/bin/Debug/net8.0/Biblioteca.Dominio.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/bin/Debug/net8.0/Biblioteca.Dominio.pdb
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.csproj.AssemblyReference.cache
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.AssemblyInfoInputs.cache
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.AssemblyInfo.cs
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.csproj.CoreCompileInputs.cache
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.sourcelink.json
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Bibliote.5EE159F8.Up2Date
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/refint/Biblioteca.Aplicacao.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/Biblioteca.Aplicacao.pdb
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/Debug/net8.0/ref/Biblioteca.Aplicacao.dll

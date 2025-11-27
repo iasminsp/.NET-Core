@@ -1,0 +1,12 @@
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/bin/Debug/net8.0/Biblioteca.Dominio.deps.json
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/bin/Debug/net8.0/Biblioteca.Dominio.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/bin/Debug/net8.0/Biblioteca.Dominio.pdb
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.AssemblyInfoInputs.cache
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.AssemblyInfo.cs
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.csproj.CoreCompileInputs.cache
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.sourcelink.json
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/refint/Biblioteca.Dominio.dll
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.pdb
+/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/Debug/net8.0/ref/Biblioteca.Dominio.dll

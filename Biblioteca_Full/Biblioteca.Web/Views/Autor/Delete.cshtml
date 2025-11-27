@@ -1,0 +1,12 @@
+@model Biblioteca.Aplicacao.ViewModels.AutorViewModel
+@{
+    ViewData["Title"] = "Excluir Autor";
+}
+<h1>Excluir Autor</h1>
+<p>Tem certeza que deseja excluir o autor <strong>@Model.Nome</strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button class="btn btn-danger" type="submit">Excluir</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

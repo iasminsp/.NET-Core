@@ -1,0 +1,34 @@
+@model Biblioteca.Aplicacao.ViewModels.LivroViewModel
+@{
+    ViewData["Title"] = "Editar Livro";
+}
+<h1>Editar Livro</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label asp-for="Titulo" class="form-label"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="AutorId" class="form-label"></label>
+        <select asp-for="AutorId" asp-items="ViewBag.Autores" class="form-select"></select>
+        <span asp-validation-for="AutorId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Genero" class="form-label"></label>
+        <input asp-for="Genero" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="AnoPublicacao" class="form-label"></label>
+        <input asp-for="AnoPublicacao" class="form-control" />
+        <span asp-validation-for="AnoPublicacao" class="text-danger"></span>
+    </div>
+    <button class="btn btn-primary" type="submit">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

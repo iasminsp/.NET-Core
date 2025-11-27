@@ -1,0 +1,55 @@
+@model IEnumerable<Biblioteca.Aplicacao.ViewModels.LivroViewModel>
+@{
+    ViewData["Title"] = "Livros";
+}
+<h1>Livros</h1>
+<div class="mb-3">
+    <a class="btn btn-primary" asp-action="Create">Novo Livro</a>
+    <a class="btn btn-secondary" asp-controller="Autor" asp-action="Index">Autores</a>
+</div>
+
+<div class="mb-3">
+    <input id="searchBox" class="form-control" placeholder="Pesquisar por título ou gênero..." />
+</div>
+
+<div id="results">
+    <table class="table">
+        <thead><tr><th>Título</th><th>Autor</th><th>Gênero</th><th>Ano</th><th></th></tr></thead>
+        <tbody id="rows">
+        @foreach(var l in Model)
+        {
+            <tr>
+                <td>@l.Titulo</td>
+                <td>@l.AutorNome</td>
+                <td>@l.Genero</td>
+                <td>@l.AnoPublicacao</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@l.Id">Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@l.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@l.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+<script>
+document.getElementById('searchBox').addEventListener('input', function() {
+    const q = this.value;
+    fetch('/Livro/Search?q=' + encodeURIComponent(q))
+      .then(res => res.json())
+      .then(data => {
+        const rows = document.getElementById('rows');
+        rows.innerHTML = '';
+        data.forEach(l => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${l.titulo}</td><td>${l.autorNome}</td><td>${l.genero ?? ''}</td><td>${l.anoPublicacao}</td>
+                <td><a href='/Livro/Details/${l.id}'>Detalhes</a> | <a href='/Livro/Edit/${l.id}'>Editar</a> | <a href='/Livro/Delete/${l.id}'>Excluir</a></td>`;
+            rows.appendChild(tr);
+        });
+      });
+});
+</script>
+}

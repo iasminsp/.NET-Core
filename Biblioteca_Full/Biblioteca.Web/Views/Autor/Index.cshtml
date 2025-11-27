@@ -1,0 +1,21 @@
+@model IEnumerable<Biblioteca.Dominio.Entities.Autor>
+@{
+    ViewData["Title"] = "Autores";
+}
+<h1>Autores</h1>
+<p><a asp-action="Create" class="btn btn-primary">Novo Autor</a> <a asp-controller="Livro" asp-action="Index" class="btn btn-secondary">Livros</a></p>
+<table class="table">
+    <thead><tr><th>Nome</th><th></th></tr></thead>
+    <tbody>
+    @foreach(var a in Model)
+    {
+        <tr>
+            <td>@a.Nome</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@a.Id">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@a.Id">Excluir</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Web/Biblioteca.Web.csproj": {}
+  },
+  "projects": {
+    "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/Biblioteca.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/Biblioteca.Aplicacao.csproj",
+        "projectName": "Biblioteca.Aplicacao",
+        "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/Biblioteca.Aplicacao.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj": {
+                "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj",
+        "projectName": "Biblioteca.Dominio",
+        "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Infraestrutura/Biblioteca.Infraestrutura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Infraestrutura/Biblioteca.Infraestrutura.csproj",
+        "projectName": "Biblioteca.Infraestrutura",
+        "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Infraestrutura/Biblioteca.Infraestrutura.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Infraestrutura/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj": {
+                "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Web/Biblioteca.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Web/Biblioteca.Web.csproj",
+        "projectName": "Biblioteca.Web",
+        "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Web/Biblioteca.Web.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/Biblioteca.Aplicacao.csproj": {
+                "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Aplicacao/Biblioteca.Aplicacao.csproj"
+              },
+              "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj": {
+                "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Dominio/Biblioteca.Dominio.csproj"
+              },
+              "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Infraestrutura/Biblioteca.Infraestrutura.csproj": {
+                "projectPath": "/workspaces/.NET-Core/Biblioteca_Full/Biblioteca.Infraestrutura/Biblioteca.Infraestrutura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
